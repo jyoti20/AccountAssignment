@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "88214891-fe07-4019-9077-aaa9155be878",
+		"name": "AccountApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23890003"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/initiateAmountTranser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fromAccount\": \"00432896699\",\r\n    \"toAccount\": \"00432896799\",\r\n    \"transferRequestId\": \"1x\",\r\n    \"transactionAmount\": 500\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/initiateAmountTranser",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"initiateAmountTranser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getAccount/00432896699",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getAccount/00432896699",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAccount",
+						"00432896699"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/getAccounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getAccounts",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAccounts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
