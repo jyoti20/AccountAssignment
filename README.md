@@ -1,5 +1,5 @@
 # AccountTransfer microservice
-## This service is used to transfer money from one account to other.
+## This service is used for transfer money from one account to other.
 ### Project Structure
 
 
@@ -32,14 +32,12 @@
 
 ###3. Get Account Details for a giiven account number
 
-## checkout api
 ###1:- Call http://localhost:8080/getAccount/{accountNumber}
 
 
+###4. Initiate amount transfer to send money from one account to destination account
 
-### Sonar Scan result :- Zero issue left , all resolved
-
-
+###1:- Call http://localhost:8080/initiateAmountTranser
 
 ### Unit Test case and Code Coverage result
 Note:- 60% current coverage can extend >80 %
