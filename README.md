@@ -1,5 +1,5 @@
 # AccountTransfer microservice
-## This service is used for transfer money from one account to other.
+## This service is used to transfer money from one account to other.
 ### Project Structure
 
 
